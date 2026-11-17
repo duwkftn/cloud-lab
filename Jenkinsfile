@@ -2,7 +2,7 @@ pipeline {
 agent any
 stages {
 stage("Checkout") {
-steps { git url: "https://github.com/{id}/cloud-lab.git", branch:
+steps { git url: "https://github.com/duwkftn/cloud-lab.git", branch:
 "main" }
 }
 stage("Build") {
